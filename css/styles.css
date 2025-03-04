@@ -693,6 +693,36 @@ footer {
 }
 
 @media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    .header {
+        padding: 10px;
+    }
+    .nav {
+        flex-direction: column;
+    }
+    .nav a {
+        margin: 5px 0;
+    }
+    .hero {
+        padding: 20px;
+    }
+    .hero h1 {
+        font-size: 24px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    .features {
+        flex-direction: column;
+    }
+    .feature {
+        margin: 10px 0;
+    }
+    .footer {
+        padding: 10px;
+    }
     .nav-links {
         display: none;
         position: absolute;
